@@ -12,7 +12,6 @@ api_key = os.getenv('API_KEY')
 print(api_key)
 
 st.title('Movie Recommendation System')
-st.text('Get ur movie here')
 
 df = pd.read_csv('processed_data.csv')
 print(df.columns)
